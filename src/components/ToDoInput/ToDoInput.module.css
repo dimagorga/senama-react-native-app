@@ -1,0 +1,21 @@
+.form {
+  margin: 0 auto;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.button {
+  width: fit-content;
+  margin: 0 auto;
+  background-color: rgb(14, 115, 166);
+}
