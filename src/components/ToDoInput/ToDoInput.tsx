@@ -23,8 +23,7 @@ const ToDoInput = ({ getToDos }: Props) => {
 
     const taskValue = { task: inputValue };
 
-    postToDo(taskValue).then((data) => {
-      console.log(data);
+    postToDo(taskValue).then(() => {
       getToDos();
     });
   };

@@ -9,7 +9,6 @@ import {
   GestureResponderEvent,
   Switch,
 } from "react-native";
-import { useState } from "react";
 
 interface ToDo {
   id: string;
